@@ -3,9 +3,9 @@
 
 // Function that takes an array as an argument, as well as a callback function.
 function arrayEach(arr, callback){
-  for (let i = 0; i < arr.length; i++) {
+  // for (let i = 0; i < arr.length; i++) {
     callback(arr[i])
-  }
+  // }
 }
 
 arrayEach([1,2,3], function(element){console.log(element)})
